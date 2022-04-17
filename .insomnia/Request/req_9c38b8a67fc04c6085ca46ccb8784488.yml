@@ -1,17 +1,21 @@
-_id: req_8f4b241c87b04f59a4bf729ffd7d6f04
+_id: req_9c38b8a67fc04c6085ca46ccb8784488
 type: Request
 parentId: fld_4a8a03b9daf146c885a348df7c065d77
-modified: 1650232871493
-created: 1650231562420
-url: "{{domain}}/user"
-name: List Users
+modified: 1650232948712
+created: 1650232710452
+url: "{{domain}}/user/{{id}}"
+name: Search User by ID
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - id: pair_3d36e93a26df447c9cb7e1de6311bd14
+    name: ""
+    value: ""
+    description: ""
 headers: []
 authentication: {}
-metaSortKey: -1650231562420
+metaSortKey: -1650191469071
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

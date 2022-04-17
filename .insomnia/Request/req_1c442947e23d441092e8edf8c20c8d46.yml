@@ -1,17 +1,17 @@
-_id: req_8f4b241c87b04f59a4bf729ffd7d6f04
+_id: req_1c442947e23d441092e8edf8c20c8d46
 type: Request
 parentId: fld_4a8a03b9daf146c885a348df7c065d77
-modified: 1650232871493
-created: 1650231562420
-url: "{{domain}}/user"
-name: List Users
+modified: 1650232897217
+created: 1650232814410
+url: "{{domain}}/{{id}}"
+name: Delete user by ID
 description: ""
-method: GET
+method: DELETE
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1650231562420
+metaSortKey: -1650232814410
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

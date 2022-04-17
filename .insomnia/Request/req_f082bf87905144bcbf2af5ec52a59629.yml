@@ -1,19 +1,19 @@
-_id: req_f8da504051dd411896ea5b6a0a604d96
+_id: req_f082bf87905144bcbf2af5ec52a59629
 type: Request
 parentId: fld_4a8a03b9daf146c885a348df7c065d77
-modified: 1650232849036
-created: 1650231743966
-url: "{{domain}}/user"
-name: Create User
+modified: 1650232860583
+created: 1650232765415
+url: "{{domain}}/user/{{id}}"
+name: Update User
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
   text: |-
     {
-      "username": "fazt",
-      "email": "fazt@gmail.com",
-      "password": "faztpassword"
+      "username": "Ryan",
+      "email": "ryan@gmail.com",
+      "password": "ryanpassword"
     }
 parameters: []
 headers:
@@ -21,7 +21,7 @@ headers:
     value: application/json
     id: pair_33ef321093474719bc6664d2cd5f2d79
 authentication: {}
-metaSortKey: -1650231562470
+metaSortKey: -1650231562445
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
