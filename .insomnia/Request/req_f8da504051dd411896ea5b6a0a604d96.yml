@@ -1,0 +1,31 @@
+_id: req_f8da504051dd411896ea5b6a0a604d96
+type: Request
+parentId: fld_4a8a03b9daf146c885a348df7c065d77
+modified: 1650231769610
+created: 1650231743966
+url: "{{domain}}/user"
+name: user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "username": "fazt",
+      "email": "fazt@gmail.com",
+      "password": "faztpassword"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_33ef321093474719bc6664d2cd5f2d79
+authentication: {}
+metaSortKey: -1650231562470
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

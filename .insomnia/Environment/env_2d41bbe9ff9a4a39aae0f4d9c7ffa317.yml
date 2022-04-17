@@ -1,0 +1,14 @@
+_id: env_2d41bbe9ff9a4a39aae0f4d9c7ffa317
+type: Environment
+parentId: env_cf8e992965659963acb333c441b0ba99fd7501d0
+modified: 1650231677073
+created: 1650231639429
+name: docker
+data:
+  domain: http://localhost:5000
+dataPropertyOrder:
+  "&":
+    - domain
+color: "#464ace"
+isPrivate: false
+metaSortKey: 1650231639429
